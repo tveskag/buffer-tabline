@@ -1,4 +1,4 @@
-#buffer-tabline
+# buffer-tabline
 
 Small simple plugin to display buffer names and tabpages. Also lets you rename tabs.
 
@@ -16,10 +16,12 @@ Plug 'tveskag/buffer-tabline'
 #### Functions
 The plugin is exposed through the functions:
 
+```
 TablineNextBuffer, 
 TablinePrevBuffer, 
 TablineDeleBuffer, 
 TablineRenameTab "name", 
+```
 
 example:
 
