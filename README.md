@@ -11,7 +11,7 @@ Plug 'tveskag/buffer-tabline'
 
 ### Usage:
 
-![example gif](https://github.com/tveskag/nvim-blame-line/blob/master/img/example.gif "Example gif")
+![example gif](https://github.com/tveskag/buffer-tabline/blob/master/img/example.gif "Example gif")
 
 #### Functions
 The plugin is exposed through the functions:
