@@ -98,7 +98,7 @@ endfunction
 augroup TabLine
     autocmd!
     autocmd VimEnter * call tabline#init()
-    autocmd TabNew * let t:windowbuffers = [str2nr(expand('<abuf>'))]
+    autocmd TabNew * let t:windowbuffers = []
     autocmd BufEnter * call tabline#addbuffer(str2nr(expand('<abuf>')))
     autocmd BufDelete,BufWipeout * call tabline#deletebuffer(str2nr(expand('<abuf>')))
 augroup END
